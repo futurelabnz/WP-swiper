@@ -1,0 +1,24 @@
+{
+  "name": "wp-swiper",
+  "version": "0.0.1",
+  "description": "Cool landing page WP theme",
+  "author": "FutureLab <contact@futurelab.co.nz>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pojke/WP-swiper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pojke/WP-swiper/issues"
+  },
+  "keywords": [
+    "wordpress",
+    "angular"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.x",
+    "jquery": "~2.1",
+    "swiper": "~3",
+    "skrollr": "~0.6"
+  },
+  "licence": "GPL"
+}
