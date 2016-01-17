@@ -1,4 +1,5 @@
-<<<<<<< HEAD:wordpress/wp-content/themes/bootstrap-basic/css/less/main.less
+@import "../../node_modules/swiper/src/less/swiper";
+
 /*=== Color Variables ===*/
 @yellow : #FFDE00;
 @orange : #FD7400;
@@ -6,33 +7,19 @@
 @blue : #004358;
 
 body {overflow-x:hidden;}
-.swiper-container {
-  width: 100%;
-  height: 800px;
-  margin: 0px auto;
-=======
-@import "../../node_modules/swiper/src/less/swiper";
 html, body {
   position: relative;
   height: 100%;
 }
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color:#000;
-  margin: 0;
-  padding: 0;
-}
 .swiper-container {
   width: 100%;
   height: 100%;
->>>>>>> ffad73c6c9bc5d23de9aea7b386f6b176b522f65:wordpress/wp-content/themes/webhatchery/css/less/main.less
+
 }
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+ 
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,10 +31,10 @@ body {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  -webkit-align-items: center;
+  -webkit-align-items: center; 
   align-items: center;
 }
-<<<<<<< HEAD:wordpress/wp-content/themes/bootstrap-basic/css/less/main.less
+
 
 .container {margin:0 auto;}
 
@@ -55,8 +42,6 @@ body {
 
 .site-title-heading { margin-top:0px; margin-bottom:0; }
 .page-header-top-right {margin-top:-50px;}
-
-
 .navbar-default { box-shadow: none ; box-shadow: none; background-image: none;  border: none; background-color: transparent;}
 .navbar { margin-bottom:0; }
 .page-container {
@@ -73,15 +58,10 @@ body {
   }
   li.active {
      a { color:@yellow; }  }
-  
-
-
 }
-.header {background:#000000; position: fixed;   top: 40px;    left: 0;  right: 0;  z-index: 100;}
+header {background:#000000; position: fixed;   top: 40px;    left: 0;  right: 0;  z-index: 100;}
 
 .site-branding { padding: 5px 0; }
-
-
 
 .swiper-slide[data-swiper-slide-index="0"] {
   background-color:@yellow;
@@ -96,16 +76,12 @@ background-color:@green;
 background-color:@blue; 
 }
 
-
-
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {  .page-header-top-right {margin-top:0px;}
 .navbar-nav {  
-
 }
  }
 
@@ -117,8 +93,11 @@ background-color:@blue;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
 
-=======
 .swiper-container-v {
   background: #eee;
 }
->>>>>>> ffad73c6c9bc5d23de9aea7b386f6b176b522f65:wordpress/wp-content/themes/webhatchery/css/less/main.less
+
+@media screen and (max-width: 782px)
+html {
+  margin-top: 0 !important; 
+}

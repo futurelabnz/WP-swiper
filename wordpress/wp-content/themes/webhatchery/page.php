@@ -7,6 +7,43 @@
 get_header();
 ?> 
 
+<div class="container page-container">
+  <?php do_action('before'); ?> 
+  <header role="banner">
+    <div class="row row-with-vspace site-branding container">
+      <div class="col-md-4 site-title">
+        <h1 class="site-title-heading">
+          <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/white-wh-1.png" alt="Web hatchery"></a>
+        </h1>
+      </div>
+      <div class="col-md-8 page-header-top-right">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
+              <span class="sr-only"><?php _e('Toggle navigation', 'webhatchery'); ?></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-primary-collapse">
+            <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new webhatcheryMyWalkerNavMenu())); ?> 
+            <?php dynamic_sidebar('navbar-right'); ?> 
+          </div><!--.navbar-collapse-->
+        </nav>
+      </div>
+    </div><!--.main-navigation-->
+  </header>
+
+
+  <div id="content" class="row row-with-vspace site-content">
+
+
+
+  </div><!--.site-content-->
+</div><!--.container page-container-->
+
 <div class="swiper-container swiper-main">
   <div class="swiper-wrapper">
 
@@ -37,35 +74,5 @@ get_header();
   </div>
 </div>
 
-<div class="container page-container">
-  <?php do_action('before'); ?> 
-  <header role="banner">
-    <div class="row main-navigation">
-      <div class="col-md-12">
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
-              <span class="sr-only"><?php _e('Toggle navigation', 'webhatchery'); ?></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
 
-          <div class="collapse navbar-collapse navbar-primary-collapse">
-            <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new webhatcheryMyWalkerNavMenu())); ?> 
-            <?php dynamic_sidebar('navbar-right'); ?> 
-          </div><!--.navbar-collapse-->
-        </nav>
-      </div>
-    </div><!--.main-navigation-->
-  </header>
-
-
-  <div id="content" class="row row-with-vspace site-content">
-
-
-
-  </div><!--.site-content-->
-</div><!--.container page-container-->
 <?php get_footer(); ?> 	
