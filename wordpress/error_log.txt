@@ -264,3 +264,59 @@
 [17-Jan-2016 08:35:45 UTC] PHP   8. require() C:\wamp\www\WP-swiper\wordpress\wp-includes\template.php:564
 [17-Jan-2016 08:35:45 UTC] PHP   9. the_content() C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page-landing.php:14
 [17-Jan-2016 08:35:45 UTC] PHP  10. get_the_content() C:\wamp\www\WP-swiper\wordpress\wp-includes\post-template.php:221
+[17-Jan-2016 21:30:07 UTC] PHP Fatal error:  Class 'BootstrapBasicMyWalkerNavMenu' not found in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\header.php on line 65
+[17-Jan-2016 21:30:07 UTC] PHP Stack trace:
+[17-Jan-2016 21:30:07 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[17-Jan-2016 21:30:07 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[17-Jan-2016 21:30:07 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[17-Jan-2016 21:30:07 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[17-Jan-2016 21:30:07 UTC] PHP   5. get_header() C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php:7
+[17-Jan-2016 21:30:07 UTC] PHP   6. locate_template() C:\wamp\www\WP-swiper\wordpress\wp-includes\general-template.php:45
+[17-Jan-2016 21:30:07 UTC] PHP   7. load_template() C:\wamp\www\WP-swiper\wordpress\wp-includes\template.php:521
+[17-Jan-2016 21:30:07 UTC] PHP   8. require_once() C:\wamp\www\WP-swiper\wordpress\wp-includes\template.php:562
+[17-Jan-2016 22:24:15 UTC] PHP Fatal error:  Class 'BootstrapBasicMyWalkerNavMenu' not found in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 37
+[17-Jan-2016 22:24:15 UTC] PHP Stack trace:
+[17-Jan-2016 22:24:15 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[17-Jan-2016 22:24:15 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[17-Jan-2016 22:24:15 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[17-Jan-2016 22:24:15 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[17-Jan-2016 22:26:53 UTC] PHP Fatal error:  Class 'BootstrapBasicMyWalkerNavMenu' not found in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\header.php on line 65
+[17-Jan-2016 22:26:53 UTC] PHP Stack trace:
+[17-Jan-2016 22:26:53 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[17-Jan-2016 22:26:53 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[17-Jan-2016 22:26:53 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[17-Jan-2016 22:26:53 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[17-Jan-2016 22:26:53 UTC] PHP   5. get_header() C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php:7
+[17-Jan-2016 22:26:53 UTC] PHP   6. locate_template() C:\wamp\www\WP-swiper\wordpress\wp-includes\general-template.php:45
+[17-Jan-2016 22:26:53 UTC] PHP   7. load_template() C:\wamp\www\WP-swiper\wordpress\wp-includes\template.php:521
+[17-Jan-2016 22:26:53 UTC] PHP   8. require_once() C:\wamp\www\WP-swiper\wordpress\wp-includes\template.php:562
+[18-Jan-2016 02:20:18 UTC] PHP Fatal error:  Function name must be a string in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 65
+[18-Jan-2016 02:20:18 UTC] PHP Stack trace:
+[18-Jan-2016 02:20:18 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[18-Jan-2016 02:20:18 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[18-Jan-2016 02:20:18 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[18-Jan-2016 02:20:18 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[18-Jan-2016 02:20:24 UTC] PHP Fatal error:  Function name must be a string in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 65
+[18-Jan-2016 02:20:24 UTC] PHP Stack trace:
+[18-Jan-2016 02:20:24 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[18-Jan-2016 02:20:24 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[18-Jan-2016 02:20:24 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[18-Jan-2016 02:20:24 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[18-Jan-2016 02:20:28 UTC] PHP Fatal error:  Function name must be a string in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 65
+[18-Jan-2016 02:20:28 UTC] PHP Stack trace:
+[18-Jan-2016 02:20:28 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[18-Jan-2016 02:20:28 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[18-Jan-2016 02:20:28 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[18-Jan-2016 02:20:28 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[18-Jan-2016 02:20:34 UTC] PHP Fatal error:  Function name must be a string in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 65
+[18-Jan-2016 02:20:34 UTC] PHP Stack trace:
+[18-Jan-2016 02:20:34 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[18-Jan-2016 02:20:34 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[18-Jan-2016 02:20:34 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[18-Jan-2016 02:20:34 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[18-Jan-2016 02:20:39 UTC] PHP Fatal error:  Function name must be a string in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 65
+[18-Jan-2016 02:20:39 UTC] PHP Stack trace:
+[18-Jan-2016 02:20:39 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[18-Jan-2016 02:20:39 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[18-Jan-2016 02:20:39 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[18-Jan-2016 02:20:39 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
