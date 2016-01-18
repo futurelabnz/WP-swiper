@@ -5,7 +5,7 @@
  * @package WordPress
  * @subpackage Webhatchery
  */
-$gallery = get_field('gallery');
+$gallery = get_field('gallery', $child->ID);
 //print_r($child);
 ?>
 <div class="slide1">
@@ -16,6 +16,9 @@ $gallery = get_field('gallery');
 		<div class="col-md-6">
 			<p>
 			   <?php echo $child->post_title; ?>
+			</p>
+      <p>
+			   <?php echo $child->post_content; ?>
 			</p>
 		</div>
 	</div>
