@@ -58,12 +58,11 @@ get_header();
         <div class="swiper-container swiper-child">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <?php get_template_part(preg_replace('/\.php/', '', get_page_template_slug($page->ID))); ?>
+              <?php include(locate_template(get_page_template_slug($page->ID)));?>
             </div>
             <?php foreach ($children as $key=>&$child): ?>
               <div class="swiper-slide">
-                ||<?php echo get_page_template_slug($child->ID);?>
-                <?php get_template_part(preg_replace('/\.php/', '', get_page_template_slug($child->ID))); ?>
+                <?php include(locate_template(get_page_template_slug($child->ID)));?>
               </div>
             <?php endforeach; ?>
           </div>
