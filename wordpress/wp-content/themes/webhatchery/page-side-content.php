@@ -6,7 +6,7 @@
  * @subpackage Webhatchery
  */
 $gallery = get_field('gallery');
-echo $child;
+//print_r($child);
 ?>
 <div class="slide1">
 	<div class="row">
@@ -15,7 +15,7 @@ echo $child;
 		</div>
 		<div class="col-md-6">
 			<p>
-			   <?php echo $post->post_title; ?>
+			   <?php echo $child->post_title; ?>
 			</p>
 		</div>
 	</div>
