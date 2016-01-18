@@ -57,7 +57,7 @@ html, body {
     }   
   }
   li.active {
-     a { color:@yellow; }  }
+   a { color:@yellow; }  }
 }
 header {background:#000000; position: fixed;   top: 40px;    left: 0;  right: 0;  z-index: 100;}
 
@@ -75,6 +75,11 @@ background-color:@green;
 .swiper-slide[data-swiper-slide-index="3"] {
 background-color:@blue; 
 }
+
+/*Page one*/
+
+.logo {margin-bottom:40px;}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -97,7 +102,9 @@ background-color:@blue;
   background: #eee;
 }
 
-@media screen and (max-width: 782px)
+@media screen and (max-width: 782px) {
 html {
   margin-top: 0 !important; 
+}
+.logo {width:170px;}
 }
