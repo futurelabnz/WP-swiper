@@ -11,14 +11,20 @@ html, body {
   position: relative;
   height: 100%;
 }
-h2 {font-weight:600;  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;}
+h2 {font-weight:600;  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color:#000000; }
 .home-content-text { font-family:; padding-top:30px; }
-
+p {color:#000000;}
 .swiper-container {
   width: 100%;
   height: 100%;
 
 }
+
+.btn { font-weight:600;  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color:#000000;  font-size:24px; border-radius:0; margin-top:35px; text-transform:uppercase; width:100%; max-width:190px; box-shadow:1px 2px 1px rgba(0,0,0,0.2); }
+
+.yellow {background-color:@yellow ;}
+
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -36,8 +42,8 @@ h2 {font-weight:600;  font-family: 'Century Gothic', CenturyGothic, AppleGothic,
   -ms-flex-align: center;
   -webkit-align-items: center; 
   align-items: center;
-}
 
+}
 
 .container {margin:0 auto;}
 
@@ -67,11 +73,21 @@ header {background:#000000; position: fixed;   top: 40px;    left: 0;  right: 0;
 .site-branding { padding: 5px 0; }
 
 .swiper-slide {
+  .text-box  {background:rgba(255,255,255,0.3); padding:20px 15px; max-width:850px; margin:0 auto; 
+  }
   .columns {padding:0 30px; }
-  .slide1 { max-width:1170px;
+  .slide1, .slide2 { max-width:1170px; width:100%;
     .background { position:absolute; z-index:-1;}
    }
+  .slide2 { 
+  .one {margin-top:20px;}
+  p, h2 { max-width:800px; width:100%; margin:0 auto;}
+  p {  margin:0 auto; }
+  }
+  .swipe {position:absolute; right:0px;} 
 }
+
+.slide-image { max-width:100%; }
 
 .swiper-slide[data-swiper-slide-index="0"] {
   background-color:@yellow;
@@ -90,6 +106,31 @@ background-color:@blue;
 
 .logo {margin-bottom:40px;}
 
+/* Demo Page */
+
+.demo-content { p {color:#ffffff; font-size:21px;} }
+.demo-title {color:#ffffff; margin-bottom:30px;} 
+.demo-page {
+  p {width:100%; max-width:800px; margin:0 auto; color:#ffffff;}
+  .demo { margin-top:25px; margin-bottom:40px; max-width:520px; }
+}
+
+
+/*Contact*/
+.contact-page {
+  h2, p {
+  color:#CCCCCC;
+  }
+  .wpcf7 { max-width:500px; padding:15px; margin:0 auto;
+  input {border:1px solid #CCCCCC; border-bottom:0px;}
+  textarea { border:1px solid #CCCCCC; }
+  input, textarea { background:transparent; width:100%; padding:10px; margin:0;}
+  .wpcf7-submit { border:1px solid #ffffff; border-top:0px; width:100px; position: relative; top: -7px;  float: left; }
+  .wpcf7-submit:hover { background:#cccccc; color:@blue; }
+  p { margin:0; }
+  }
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -100,19 +141,48 @@ background-color:@blue;
 }
 h2 {font-size:36px;}
 .home-content-text {font-size:24px;}
+.swipe {position:absolute; right:50px;} 
+
  }
+.swiper-slide {
+  .slide1 { 
+  .background {
+    top: -120px;
+    right: -50px;
+
+  }
+  }
+ 
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 .header { top:50px; }
+
 .swiper-slide {
-  .slide1 { 
+  .slide2  { 
   .background{
+      position:absolute;
       top: -150px;
-    right: -100px;
+    right: -180px;
 
-  } }
-
+  }
+  }
+  .row { display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center; 
+  align-items: center; }
+   .swipe {display:none;}  
+  .slide-image {margin-bottom:15px;}
 }
 }
 
@@ -121,11 +191,24 @@ h2 {font-size:36px;}
 
 .swiper-container-v {
   background: #eee;
+
 }
 
 @media screen and (max-width: 782px) {
 html {
   margin-top: 0 !important; 
 }
+.contact-page { 
+.wpcf7 {
+  textarea { height:150px; }
+  }
+}
+h2 { margin-top:10px; }
+.slide1 {.slide-image {max-width:45%; margin:0 auto;} }
+.slide-image.background { max-width:100%; }
 .logo {width:170px;}
+.text-box  {padding:20px 10px;
+  }
+ .swipe {position:absolute; right:50px;}
+
 }

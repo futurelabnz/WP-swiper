@@ -17,12 +17,14 @@ $gallery = get_field('gallery', $child->ID);
 			<img class="slide-image four" src="<?php echo $gallery[3]['url'];?>">
 		</div>
 		<div class="col-md-6 columns">
-			<h2>
-			   <?php echo $child->post_title; ?>
-			</h2>
-      		<p class="home-content-text">
-			   <?php echo $child->post_content; ?>
-			</p>
+			<div class="text-box">
+				<h2>
+				   <?php echo $child->post_title; ?>
+				</h2>
+	      		<p class="home-content-text">
+				   <?php echo $child->post_content; ?>
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
