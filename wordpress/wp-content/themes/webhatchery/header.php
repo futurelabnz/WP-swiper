@@ -21,7 +21,7 @@
     <script type="text/javascript">
       var SWIPER;//global swiper instance
     </script>
-
+    
     <!--wordpress head-->
     <?php wp_head(); ?>
   </head>

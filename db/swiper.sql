@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 19, 2016 at 09:48 PM
+-- Generation Time: Jan 20, 2016 at 01:33 AM
 -- Server version: 5.6.12-log
 -- PHP Version: 5.4.12
 
@@ -290,7 +290,7 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=178 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=194 ;
 
 --
 -- Dumping data for table `wp_postmeta`
@@ -302,11 +302,11 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (3, 2, '_wp_trash_meta_status', 'publish'),
 (4, 2, '_wp_trash_meta_time', '1452762529'),
 (5, 5, '_edit_last', '1'),
-(6, 5, '_edit_lock', '1453167404:1'),
+(6, 5, '_edit_lock', '1453241406:1'),
 (7, 7, '_edit_last', '1'),
-(8, 7, '_edit_lock', '1453175522:1'),
+(8, 7, '_edit_lock', '1453253368:1'),
 (9, 9, '_edit_last', '1'),
-(10, 9, '_edit_lock', '1453174681:1'),
+(10, 9, '_edit_lock', '1453253348:1'),
 (11, 11, '_menu_item_type', 'custom'),
 (12, 11, '_menu_item_menu_item_parent', '0'),
 (13, 11, '_menu_item_object_id', '11'),
@@ -364,20 +364,20 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (78, 32, 'galery', 'a:1:{i:0;s:2:"29";}'),
 (79, 32, '_galery', 'field_569b36843818a'),
 (80, 34, '_edit_last', '1'),
-(81, 34, '_edit_lock', '1453092976:1'),
+(81, 34, '_edit_lock', '1453253382:1'),
 (82, 35, 'galery', 'a:1:{i:0;s:2:"29";}'),
 (83, 35, '_galery', 'field_569b36843818a'),
 (84, 34, 'galery', 'a:1:{i:0;s:2:"29";}'),
 (85, 34, '_galery', 'field_569b36843818a'),
 (86, 36, '_edit_last', '1'),
-(87, 36, '_edit_lock', '1453167414:1'),
+(87, 36, '_edit_lock', '1453253560:1'),
 (88, 37, 'galery', 'a:1:{i:0;s:2:"29";}'),
 (89, 37, '_galery', 'field_569b36843818a'),
 (90, 36, 'galery', 'a:1:{i:0;s:2:"29";}'),
 (91, 36, '_galery', 'field_569b36843818a'),
 (92, 5, '_wp_page_template', 'page-landing.php'),
 (93, 40, '_edit_last', '1'),
-(94, 40, '_edit_lock', '1453167352:1'),
+(94, 40, '_edit_lock', '1453241328:1'),
 (97, 5, 'galery', 'a:1:{i:0;s:2:"29";}'),
 (98, 5, '_galery', 'field_569b36843818a'),
 (99, 5, 'gallery', 'a:2:{i:0;s:2:"43";i:1;s:2:"60";}'),
@@ -453,7 +453,23 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (174, 79, '_wp_attached_file', '2016/01/arrow-demo.png'),
 (175, 79, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:47;s:6:"height";i:68;s:4:"file";s:22:"2016/01/arrow-demo.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;s:8:"keywords";a:0:{}}}'),
 (176, 80, 'additional_text', ''),
-(177, 80, '_additional_text', 'field_569c629359597');
+(177, 80, '_additional_text', 'field_569c629359597'),
+(178, 81, 'additional_text', ''),
+(179, 81, '_additional_text', 'field_569c629359597'),
+(180, 82, 'additional_text', ''),
+(181, 82, '_additional_text', 'field_569c629359597'),
+(182, 83, 'additional_text', ''),
+(183, 83, '_additional_text', 'field_569c629359597'),
+(184, 84, 'additional_text', ''),
+(185, 84, '_additional_text', 'field_569c629359597'),
+(186, 85, 'additional_text', ''),
+(187, 85, '_additional_text', 'field_569c629359597'),
+(188, 86, 'additional_text', ''),
+(189, 86, '_additional_text', 'field_569c629359597'),
+(190, 88, 'additional_text', ''),
+(191, 88, '_additional_text', 'field_569c629359597'),
+(192, 89, 'gallery', 'a:1:{i:0;s:2:"55";}'),
+(193, 89, '_gallery', 'field_569b36843818a');
 
 -- --------------------------------------------------------
 
@@ -490,7 +506,7 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=81 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=90 ;
 
 --
 -- Dumping data for table `wp_posts`
@@ -503,7 +519,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (4, 1, '2016-01-14 09:08:49', '2016-01-14 09:08:49', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href="http://localhost/wp-swiper/wordpress/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2016-01-14 09:08:49', '2016-01-14 09:08:49', '', 2, 'http://localhost/wp-swiper/wordpress/2016/01/14/2-revision-v1/', 0, 'revision', '', 0),
 (5, 1, '2016-01-14 09:09:03', '2016-01-14 09:09:03', '', 'The NZ WordPress Experts for the moment', '', 'publish', 'closed', 'closed', '', 'the-nz-wordpress-experts-for-the-moment', '', '', '2016-01-18 22:33:14', '2016-01-18 22:33:14', '', 0, 'http://localhost/wp-swiper/wordpress/?page_id=5', 0, 'page', '', 0),
 (6, 1, '2016-01-14 09:09:03', '2016-01-14 09:09:03', 'Here''s content', 'Home page', '', 'inherit', 'closed', 'closed', '', '5-revision-v1', '', '', '2016-01-14 09:09:03', '2016-01-14 09:09:03', '', 5, 'http://localhost/wp-swiper/wordpress/2016/01/14/5-revision-v1/', 0, 'revision', '', 0),
-(7, 1, '2016-01-14 09:09:17', '2016-01-14 09:09:17', 'WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.\r\n\r\n\r\n', 'Why use Wordpress', '', 'publish', 'closed', 'closed', '', 'second-page', '', '', '2016-01-19 03:41:03', '2016-01-19 03:41:03', '', 0, 'http://localhost/wp-swiper/wordpress/?page_id=7', 0, 'page', '', 0),
+(7, 1, '2016-01-14 09:09:17', '2016-01-14 09:09:17', '<p style="text-align: left; margin-bottom:30px;"><img class="alignnone size-full wp-image-46" style="float: left; margin:0 15px;" src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="100" height="auto" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.</p>', 'Why use Wordpress', '', 'publish', 'closed', 'closed', '', 'second-page', '', '', '2016-01-20 01:29:28', '2016-01-20 01:29:28', '', 0, 'http://localhost/wp-swiper/wordpress/?page_id=7', 0, 'page', '', 0),
 (8, 1, '2016-01-14 09:09:17', '2016-01-14 09:09:17', 'New content', 'Second page', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-14 09:09:17', '2016-01-14 09:09:17', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/14/7-revision-v1/', 0, 'revision', '', 0),
 (9, 1, '2016-01-14 09:09:31', '2016-01-14 09:09:31', 'See for yourself how easy WordPress is to use and edit.\r\nLog in to our demo below and play around with the Pages – add content, move elements around the page and upload your own images.\r\n\r\n<a href="#" class="yellow btn">Log in</a>', 'Wordpress Demo', '', 'publish', 'closed', 'closed', '', 'third-page', '', '', '2016-01-19 03:32:42', '2016-01-19 03:32:42', '', 0, 'http://localhost/wp-swiper/wordpress/?page_id=9', 0, 'page', '', 0),
 (10, 1, '2016-01-14 09:09:31', '2016-01-14 09:09:31', 'Here''s a 3rd content', 'Third page', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2016-01-14 09:09:31', '2016-01-14 09:09:31', '', 9, 'http://localhost/wp-swiper/wordpress/2016/01/14/9-revision-v1/', 0, 'revision', '', 0),
@@ -529,7 +545,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (33, 1, '2016-01-17 06:43:33', '2016-01-17 06:43:33', 'You don’t pay to use WordPress and you always own your own content.\r\n(unlike other sneaky CMS we could name!)', 'WordPress is a 100% FREE platform.', '', 'inherit', 'closed', 'closed', '', '32-revision-v1', '', '', '2016-01-17 06:43:33', '2016-01-17 06:43:33', '', 32, 'http://localhost/wp-swiper/wordpress/2016/01/17/32-revision-v1/', 0, 'revision', '', 0),
 (34, 1, '2016-01-17 06:44:06', '2016-01-17 06:44:06', '<strong>23%</strong> of all websites are built in WordPress – big websites, small websites, ecommerce and 1-page profiles.', 'A platform for the people', '', 'publish', 'closed', 'closed', '', 'a-platform-for-the-people', '', '', '2016-01-18 04:57:25', '2016-01-18 04:57:25', '', 5, 'http://localhost/wp-swiper/wordpress/?page_id=34', 2, 'page', '', 0),
 (35, 1, '2016-01-17 06:44:06', '2016-01-17 06:44:06', '<strong>23%</strong> of all websites are built in WordPress – big websites, small websites, ecommerce and 1-page profiles.', 'A platform for the people', '', 'inherit', 'closed', 'closed', '', '34-revision-v1', '', '', '2016-01-17 06:44:06', '2016-01-17 06:44:06', '', 34, 'http://localhost/wp-swiper/wordpress/2016/01/17/34-revision-v1/', 0, 'revision', '', 0),
-(36, 1, '2016-01-17 06:44:44', '2016-01-17 06:44:44', 'WordPress is secure, free, entirely open-source and growing rapidly in popularity.\r\nSo what are you waiting for? Get yourself an affordable, secure and high-quality website today. Join the cool kids – give us a call on 09 280 3470 or drop us a line at contact@futurelab.co.nz', 'Every day, 1 million new websites are built in WordPress', '', 'publish', 'closed', 'closed', '', 'every-day-1-million-new-websites-are-built-in-wordpress', '', '', '2016-01-18 04:56:42', '2016-01-18 04:56:42', '', 5, 'http://localhost/wp-swiper/wordpress/?page_id=36', 3, 'page', '', 0),
+(36, 1, '2016-01-17 06:44:44', '2016-01-17 06:44:44', 'WordPress is secure, free, entirely open-source and growing rapidly in popularity.\r\nSo what are you waiting for? Get yourself an affordable, secure and high-quality website today. Join the cool kids – give us a call on 09 280 3470 or drop us a line at <a href="mailto:contact@futurelab.co.nz">contact@futurelab.co.nz</a>', 'Every day, 1 million new websites are built in WordPress', '', 'publish', 'closed', 'closed', '', 'every-day-1-million-new-websites-are-built-in-wordpress', '', '', '2016-01-20 01:32:39', '2016-01-20 01:32:39', '', 5, 'http://localhost/wp-swiper/wordpress/?page_id=36', 3, 'page', '', 0),
 (37, 1, '2016-01-17 06:44:44', '2016-01-17 06:44:44', 'WordPress is secure, free, entirely open-source and growing rapidly in popularity.\r\nSo what are you waiting for? Get yourself an affordable, secure and high-quality website today. Join the cool kids – give us a call on 09 280 3470 or drop us a line at contact@futurelab.co.nz', 'Every day, 1 million new websites are built in WordPress', '', 'inherit', 'closed', 'closed', '', '36-revision-v1', '', '', '2016-01-17 06:44:44', '2016-01-17 06:44:44', '', 36, 'http://localhost/wp-swiper/wordpress/2016/01/17/36-revision-v1/', 0, 'revision', '', 0),
 (38, 1, '2016-01-17 08:14:28', '2016-01-17 08:14:28', '', 'The NZ WordPress Experts for the moment', '', 'inherit', 'closed', 'closed', '', '5-revision-v1', '', '', '2016-01-17 08:14:28', '2016-01-17 08:14:28', '', 5, 'http://localhost/wp-swiper/wordpress/2016/01/17/5-revision-v1/', 0, 'revision', '', 0),
 (39, 1, '2016-01-17 08:14:48', '2016-01-17 08:14:48', 'no content', 'The NZ WordPress Experts for the moment', '', 'inherit', 'closed', 'closed', '', '5-revision-v1', '', '', '2016-01-17 08:14:48', '2016-01-17 08:14:48', '', 5, 'http://localhost/wp-swiper/wordpress/2016/01/17/5-revision-v1/', 0, 'revision', '', 0),
@@ -572,7 +588,16 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (77, 1, '2016-01-19 03:16:31', '2016-01-19 03:16:31', '<p style="text-align: left;">See for yourself how easy WordPress is to use and edit.\r\nLog in to our demo below and play around with the Pages – add content, move elements around the page and upload your own images.</p>\r\n<br/>\r\n<a href="#" class="yellow btn">Log in</a>', 'Wordpress Demo', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2016-01-19 03:16:31', '2016-01-19 03:16:31', '', 9, 'http://localhost/wp-swiper/wordpress/2016/01/19/9-revision-v1/', 0, 'revision', '', 0),
 (78, 1, '2016-01-19 03:22:39', '2016-01-19 03:22:39', 'See for yourself how easy WordPress is to use and edit.\r\nLog in to our demo below and play around with the Pages – add content, move elements around the page and upload your own images.\r\n\r\n<a href="#" class="yellow btn">Log in</a>', 'Wordpress Demo', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2016-01-19 03:22:39', '2016-01-19 03:22:39', '', 9, 'http://localhost/wp-swiper/wordpress/2016/01/19/9-revision-v1/', 0, 'revision', '', 0),
 (79, 1, '2016-01-19 03:32:36', '2016-01-19 03:32:36', '', 'arrow-demo', '', 'inherit', 'open', 'closed', '', 'arrow-demo', '', '', '2016-01-19 03:32:36', '2016-01-19 03:32:36', '', 9, 'http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/arrow-demo.png', 0, 'attachment', 'image/png', 0),
-(80, 1, '2016-01-19 03:41:03', '2016-01-19 03:41:03', 'WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.\r\n\r\n\r\n', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 03:41:03', '2016-01-19 03:41:03', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0);
+(80, 1, '2016-01-19 03:41:03', '2016-01-19 03:41:03', 'WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.\r\n\r\n\r\n', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 03:41:03', '2016-01-19 03:41:03', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(81, 1, '2016-01-19 21:58:52', '2016-01-19 21:58:52', '<img src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="162" height="161" class="alignnone size-full wp-image-46" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.\r\n\r\n\r\n', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 21:58:52', '2016-01-19 21:58:52', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(82, 1, '2016-01-19 21:59:55', '2016-01-19 21:59:55', '<img src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" style="float:left;" alt="wordpress-logo" width="100" height="auto" class="alignnone size-full wp-image-46" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.\r\n\r\n\r\n', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 21:59:55', '2016-01-19 21:59:55', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(83, 1, '2016-01-19 22:00:04', '2016-01-19 22:00:04', '<p style="text-align: left;"><img class="alignnone size-full wp-image-46" style="float: left;" src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="100" height="auto" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.</p>', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 22:00:04', '2016-01-19 22:00:04', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(84, 1, '2016-01-19 22:04:55', '2016-01-19 22:04:55', '<p style="text-align: left;"><img class="alignnone size-full wp-image-46" style="float: left; padding:15px;" src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="100" height="auto" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.</p>', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 22:04:55', '2016-01-19 22:04:55', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(85, 1, '2016-01-19 22:05:28', '2016-01-19 22:05:28', '<p style="text-align: left;"><img class="alignnone size-full wp-image-46" style="float: left; margin:15px;" src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="100" height="auto" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.</p>', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 22:05:28', '2016-01-19 22:05:28', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(86, 1, '2016-01-19 22:08:17', '2016-01-19 22:08:17', '<p style="text-align: left;"><img class="alignnone size-full wp-image-46" style="float: left; margin:0 15px;" src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="100" height="auto" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.</p>', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-19 22:08:17', '2016-01-19 22:08:17', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/19/7-revision-v1/', 0, 'revision', '', 0),
+(87, 1, '2016-01-19 22:12:16', '2016-01-19 22:12:16', '<p>The NZ WordPress Experts for the moment', 'The NZ WordPress Experts for the moment', '', 'inherit', 'closed', 'closed', '', '5-autosave-v1', '', '', '2016-01-19 22:12:16', '2016-01-19 22:12:16', '', 5, 'http://localhost/wp-swiper/wordpress/2016/01/19/5-autosave-v1/', 0, 'revision', '', 0),
+(88, 1, '2016-01-20 01:29:28', '2016-01-20 01:29:28', '<p style="text-align: left; margin-bottom:30px;"><img class="alignnone size-full wp-image-46" style="float: left; margin:0 15px;" src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/wordpress-logo.png" alt="wordpress-logo" width="100" height="auto" />WordPress had humble beginnings as a blogger platform. Today, some of the world’s most high-profile websites – think The New York Times, TechCrunch, Spotify, and Time – are built using the WordPress platform.</p>', 'Why use Wordpress', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2016-01-20 01:29:28', '2016-01-20 01:29:28', '', 7, 'http://localhost/wp-swiper/wordpress/2016/01/20/7-revision-v1/', 0, 'revision', '', 0),
+(89, 1, '2016-01-20 01:32:39', '2016-01-20 01:32:39', 'WordPress is secure, free, entirely open-source and growing rapidly in popularity.\r\nSo what are you waiting for? Get yourself an affordable, secure and high-quality website today. Join the cool kids – give us a call on 09 280 3470 or drop us a line at <a href="mailto:contact@futurelab.co.nz">contact@futurelab.co.nz</a>', 'Every day, 1 million new websites are built in WordPress', '', 'inherit', 'closed', 'closed', '', '36-revision-v1', '', '', '2016-01-20 01:32:39', '2016-01-20 01:32:39', '', 36, 'http://localhost/wp-swiper/wordpress/2016/01/20/36-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -708,7 +733,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (20, 1, 'closedpostboxes_page', 'a:1:{i:0;s:12:"revisionsdiv";}'),
 (21, 1, 'metaboxhidden_page', 'a:6:{i:0;s:23:"acf-group_569b367906ea6";i:1;s:23:"acf-group_569c62888abd3";i:2;s:16:"commentstatusdiv";i:3;s:11:"commentsdiv";i:4;s:7:"slugdiv";i:5;s:9:"authordiv";}'),
 (22, 1, 'wp_user-settings', 'libraryContent=browse&editor=html'),
-(23, 1, 'wp_user-settings-time', '1453173378');
+(23, 1, 'wp_user-settings-time', '1453244558');
 
 -- --------------------------------------------------------
 
