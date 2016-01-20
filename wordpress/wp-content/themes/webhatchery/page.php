@@ -13,7 +13,7 @@ get_header();
     <div class="row row-with-vspace site-branding container">
       <div class="col-sm-4 site-title">
         <h1 class="site-title-heading">
-          <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/white-wh-1.png" alt="Web hatchery"></a>
+          <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="wp-content/uploads/2016/01/white-wh-1.png" alt="Web hatchery"></a>
         </h1>
       </div>
       <div class="col-sm-8 page-header-top-right">

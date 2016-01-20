@@ -74,6 +74,7 @@ header {background:#000000; position: fixed;   top: 40px;    left: 0;  right: 0;
 
 .swiper-slide {
   .text-box  {background:rgba(255,255,255,0.3); padding:20px 15px; max-width:850px; margin:0 auto; 
+  a {color:@orange;}
   }
   .columns {padding:0 30px; }
   .slide1, .slide2 { max-width:1170px; width:100%;
@@ -172,10 +173,8 @@ h2 {font-size:36px;}
   .background {
     top: -120px;
     right: -50px;
-
   }
   }
- 
 }
 
 
@@ -218,7 +217,11 @@ h2 {font-size:36px;}
 }
 
 @media screen and (max-width: 782px) {
-.slide1 { .slide-image { max-width:200px; margin-bottom:10px; } }
+.swiper-slide {
+  
+  .columns { padding:0 15px; }
+}
+.slide1 { padding:15px; .slide-image { max-width:200px; margin-bottom:10px; } }
 html {
   margin-top: 0 !important; 
 }
@@ -237,6 +240,7 @@ h2 { margin-top:10px; }
 .slide-image.background { max-width:100%; }
 .logo {width:170px;}
 .text-box  {padding:20px 10px;
+
   }
  .swipe {position:absolute; right:50px;}
                                     
@@ -249,7 +253,7 @@ h2 { font-size:21px; }
 .demo-page {
 .arrow { margin-top:-50px; width:30px; height:auto; }
 .demo { margin-bottom:0; margin-top:20px;}
-.demo-title {margin-bottom:5px; font-size:25px; }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.demo-title {margin-bottom:5px; font-size:25px; }                                                                                                                                                                                         
 }
 .slide2 {
   .background { bottom:0; left:0; right:0; }
