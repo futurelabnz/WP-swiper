@@ -10,19 +10,25 @@ $gallery = get_field('gallery',$page->ID);
 ?>
 
 
+
 <div class="slide1">
    <h2 class="title">
     <?php echo $page->post_title; ?>
   </h2>
 
   <div class="row">
-  	   <div class="col-md-12">
+  	   <div class="col-md-8">
 		  <img class="" src="<?php echo $gallery[0]['url'];?>">
 
-		  <p class="">
+		  <p >
 		    <?php echo $page->post_content; ?>
 		  </p>
 
+      <div></div>
+
+      <p>See for yourself just how easy WordPress is to edit! </p>
+      <a href="#" class="yellow btn">Show Me</a>
+      
 	  </div>
   </div>
 

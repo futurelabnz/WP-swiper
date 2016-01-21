@@ -11,12 +11,12 @@ get_header();
   <?php do_action('before'); ?> 
   <header role="banner">
     <div class="row row-with-vspace site-branding container">
-      <div class="col-md-4 site-title">
+      <div class="col-sm-4 site-title">
         <h1 class="site-title-heading">
-          <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="http://localhost/wp-swiper/wordpress/wp-content/uploads/2016/01/white-wh-1.png" alt="Web hatchery"></a>
+          <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><img src="wp-content/uploads/2016/01/white-wh-1.png" alt="Web hatchery"></a>
         </h1>
       </div>
-      <div class="col-md-8 page-header-top-right">
+      <div class="col-sm-8 page-header-top-right">
         <nav class="navbar navbar-default" role="navigation">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">

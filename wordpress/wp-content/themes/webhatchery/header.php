@@ -18,10 +18,12 @@
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+    <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <script type="text/javascript">
       var SWIPER;//global swiper instance
     </script>
-
+    
     <!--wordpress head-->
     <?php wp_head(); ?>
   </head>
