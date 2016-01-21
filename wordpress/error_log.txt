@@ -11068,3 +11068,291 @@
 [20-Jan-2016 23:40:30 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
 [20-Jan-2016 23:40:30 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
 [20-Jan-2016 23:40:30 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:35:04 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:35:04 UTC] PHP Stack trace:
+[21-Jan-2016 01:35:04 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:35:04 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:35:04 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:35:04 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:35:04 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:35:04 UTC] PHP Stack trace:
+[21-Jan-2016 01:35:04 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:35:04 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:35:04 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:35:04 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:35:04 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:35:04 UTC] PHP Stack trace:
+[21-Jan-2016 01:35:04 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:35:04 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:35:04 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:35:04 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:35:04 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:35:04 UTC] PHP Stack trace:
+[21-Jan-2016 01:35:04 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:35:04 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:35:04 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:35:04 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:36:39 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:36:39 UTC] PHP Stack trace:
+[21-Jan-2016 01:36:39 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:36:39 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:36:39 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:36:39 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:36:39 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:36:39 UTC] PHP Stack trace:
+[21-Jan-2016 01:36:39 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:36:39 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:36:39 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:36:39 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:36:39 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:36:39 UTC] PHP Stack trace:
+[21-Jan-2016 01:36:39 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:36:39 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:36:39 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:36:39 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:36:39 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:36:39 UTC] PHP Stack trace:
+[21-Jan-2016 01:36:39 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:36:39 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:36:39 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:36:39 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:45:16 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:45:16 UTC] PHP Stack trace:
+[21-Jan-2016 01:45:16 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:45:16 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:45:16 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:45:16 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:45:16 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:45:16 UTC] PHP Stack trace:
+[21-Jan-2016 01:45:16 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:45:16 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:45:16 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:45:16 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:45:16 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:45:16 UTC] PHP Stack trace:
+[21-Jan-2016 01:45:16 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:45:16 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:45:16 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:45:16 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:45:16 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:45:16 UTC] PHP Stack trace:
+[21-Jan-2016 01:45:16 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:45:16 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:45:16 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:45:16 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:46:41 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:46:41 UTC] PHP Stack trace:
+[21-Jan-2016 01:46:41 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:46:41 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:46:41 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:46:41 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:46:41 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:46:41 UTC] PHP Stack trace:
+[21-Jan-2016 01:46:41 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:46:41 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:46:41 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:46:41 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:46:41 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:46:41 UTC] PHP Stack trace:
+[21-Jan-2016 01:46:41 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:46:41 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:46:41 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:46:41 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:46:41 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:46:41 UTC] PHP Stack trace:
+[21-Jan-2016 01:46:41 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:46:41 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:46:41 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:46:41 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:48:34 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:48:34 UTC] PHP Stack trace:
+[21-Jan-2016 01:48:34 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:48:34 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:48:34 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:48:34 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:48:34 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:48:34 UTC] PHP Stack trace:
+[21-Jan-2016 01:48:34 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:48:34 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:48:34 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:48:34 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:48:34 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:48:34 UTC] PHP Stack trace:
+[21-Jan-2016 01:48:34 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:48:34 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:48:34 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:48:34 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:48:34 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:48:34 UTC] PHP Stack trace:
+[21-Jan-2016 01:48:34 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:48:34 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:48:34 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:48:34 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:50:18 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:50:18 UTC] PHP Stack trace:
+[21-Jan-2016 01:50:18 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:50:18 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:50:18 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:50:18 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:50:18 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:50:18 UTC] PHP Stack trace:
+[21-Jan-2016 01:50:18 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:50:18 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:50:18 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:50:18 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:50:18 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:50:18 UTC] PHP Stack trace:
+[21-Jan-2016 01:50:18 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:50:18 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:50:18 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:50:18 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:50:18 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:50:18 UTC] PHP Stack trace:
+[21-Jan-2016 01:50:18 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:50:18 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:50:18 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:50:18 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:51:37 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:51:37 UTC] PHP Stack trace:
+[21-Jan-2016 01:51:37 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:51:37 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:51:37 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:51:37 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:51:37 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:51:37 UTC] PHP Stack trace:
+[21-Jan-2016 01:51:37 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:51:37 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:51:37 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:51:37 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:51:37 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:51:37 UTC] PHP Stack trace:
+[21-Jan-2016 01:51:37 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:51:37 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:51:37 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:51:37 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:51:37 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:51:37 UTC] PHP Stack trace:
+[21-Jan-2016 01:51:37 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:51:37 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:51:37 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:51:37 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:52:00 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:52:00 UTC] PHP Stack trace:
+[21-Jan-2016 01:52:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:52:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:52:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:52:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:52:00 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:52:00 UTC] PHP Stack trace:
+[21-Jan-2016 01:52:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:52:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:52:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:52:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:52:00 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:52:00 UTC] PHP Stack trace:
+[21-Jan-2016 01:52:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:52:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:52:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:52:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 01:52:00 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 01:52:00 UTC] PHP Stack trace:
+[21-Jan-2016 01:52:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 01:52:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 01:52:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 01:52:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:01:27 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:01:27 UTC] PHP Stack trace:
+[21-Jan-2016 02:01:27 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:01:27 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:01:27 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:01:27 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:01:27 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:01:27 UTC] PHP Stack trace:
+[21-Jan-2016 02:01:27 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:01:27 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:01:27 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:01:27 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:01:27 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:01:27 UTC] PHP Stack trace:
+[21-Jan-2016 02:01:27 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:01:27 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:01:27 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:01:27 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:01:27 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:01:27 UTC] PHP Stack trace:
+[21-Jan-2016 02:01:27 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:01:27 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:01:27 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:01:27 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:04:17 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:04:17 UTC] PHP Stack trace:
+[21-Jan-2016 02:04:17 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:04:17 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:04:17 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:04:17 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:04:17 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:04:17 UTC] PHP Stack trace:
+[21-Jan-2016 02:04:17 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:04:17 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:04:17 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:04:17 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:04:17 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:04:17 UTC] PHP Stack trace:
+[21-Jan-2016 02:04:17 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:04:17 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:04:17 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:04:17 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:04:17 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:04:17 UTC] PHP Stack trace:
+[21-Jan-2016 02:04:17 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:04:17 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:04:17 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:04:17 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:19:00 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:19:00 UTC] PHP Stack trace:
+[21-Jan-2016 02:19:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:19:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:19:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:19:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:19:00 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:19:00 UTC] PHP Stack trace:
+[21-Jan-2016 02:19:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:19:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:19:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:19:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:19:00 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:19:00 UTC] PHP Stack trace:
+[21-Jan-2016 02:19:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:19:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:19:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:19:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:19:00 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:19:00 UTC] PHP Stack trace:
+[21-Jan-2016 02:19:00 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:19:00 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:19:00 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:19:00 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:50:31 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:50:31 UTC] PHP Stack trace:
+[21-Jan-2016 02:50:31 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:50:31 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:50:31 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:50:31 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:50:31 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:50:31 UTC] PHP Stack trace:
+[21-Jan-2016 02:50:31 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:50:31 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:50:31 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:50:31 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:50:31 UTC] PHP Warning:  include(): Filename cannot be empty in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:50:31 UTC] PHP Stack trace:
+[21-Jan-2016 02:50:31 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:50:31 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:50:31 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:50:31 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
+[21-Jan-2016 02:50:31 UTC] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\WP-swiper\wordpress\wp-content\themes\webhatchery\page.php on line 61
+[21-Jan-2016 02:50:31 UTC] PHP Stack trace:
+[21-Jan-2016 02:50:31 UTC] PHP   1. {main}() C:\wamp\www\WP-swiper\wordpress\index.php:0
+[21-Jan-2016 02:50:31 UTC] PHP   2. require() C:\wamp\www\WP-swiper\wordpress\index.php:17
+[21-Jan-2016 02:50:31 UTC] PHP   3. require_once() C:\wamp\www\WP-swiper\wordpress\wp-blog-header.php:16
+[21-Jan-2016 02:50:31 UTC] PHP   4. include() C:\wamp\www\WP-swiper\wordpress\wp-includes\template-loader.php:89
