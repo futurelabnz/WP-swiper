@@ -17,7 +17,7 @@ $gallery = get_field('gallery',$page->ID);
   </h2>
 
   <div class="row">
-  	   <div class="col-md-10">
+  	   <div class="col-md-8">
 		  <img class="" src="<?php echo $gallery[0]['url'];?>">
 
 		  <p >
