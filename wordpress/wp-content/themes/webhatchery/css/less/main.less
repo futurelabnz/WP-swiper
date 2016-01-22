@@ -27,6 +27,18 @@ p {color:#000000; font-family: 'Varela Round', sans-serif;}
 
 .yellow {background-color:@yellow ;}
 
+body > .swiper-container > .swiper-button-next { display:none; }
+
+.swiper-button-prev {
+    .encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z' fill='#007aff'/></svg>");
+    left: 10px;
+    right: auto;
+}
+ .swiper-container-rtl .swiper-button-prev {
+    .encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z' fill='#007aff'/></svg>");
+    right: 10px;
+    left: auto;
+}
 
 .swiper-slide {
   text-align: center;
@@ -52,7 +64,7 @@ p {color:#000000; font-family: 'Varela Round', sans-serif;}
 /*===== Header ======*/
 
 .site-title-heading { margin-top:0px; margin-bottom:0; }
-.page-header-top-right {margin-top:-50px;}
+.page-header-top-right { margin-top:-50px;}
 .navbar-default { box-shadow: none ; box-shadow: none; background-image: none;  border: none; background-color: transparent;}
 .navbar { margin-bottom:0; }
 .page-container {
@@ -70,7 +82,7 @@ p {color:#000000; font-family: 'Varela Round', sans-serif;}
   li.active {
    a { color:@yellow; }  }
 }
-header {background:#000000; position: fixed;   top: 40px;    left: 0;  right: 0;  z-index: 100;}
+header {background:#000000; position: fixed; top: 40px; left: 0; right: 0; z-index: 100;}
 
 .site-branding { padding: 5px 0; }
 
@@ -144,13 +156,13 @@ background-color:@blue;
 
 .arrow { width:47px; height:68px; animation-name:cursor-a; animation-duration:6s; -webkit-animation-name:cursor-a; -webkit-animation-duration:6s; animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;  }
 @-webkit-keyframes cursor-a {
- 0%   {left:-50px; top:0px;}
+    0%   {left:-50px; top:0px;}
     25%  {left:-200px; top:0px;}
     50%  {left:-200px; top:80px;}
     
     100% {left:-50px; top:0px;} }
 @keyframes cursor {
- 0%   {left:-50px; top:0px;}
+    0%   {left:-50px; top:0px;}
     25%  {left:-200px; top:0px;}
     50%  {left:-200px; top:80px;}
 
