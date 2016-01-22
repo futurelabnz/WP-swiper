@@ -27,19 +27,6 @@ p {color:#000000; font-family: 'Varela Round', sans-serif;}
 
 .yellow {background-color:@yellow ;}
 
-body > .swiper-container > .swiper-button-next { display:none; }
-
-.swiper-button-prev {
-    .encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z' fill='#007aff'/></svg>");
-    left: 10px;
-    right: auto;
-}
- .swiper-container-rtl .swiper-button-prev {
-    .encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z' fill='#007aff'/></svg>");
-    right: 10px;
-    left: auto;
-}
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -57,6 +44,13 @@ body > .swiper-container > .swiper-button-next { display:none; }
   -ms-flex-align: center;
   -webkit-align-items: center; 
   align-items: center;
+}
+
+.internal-slider {
+  .swiper-wrapper {
+
+  }
+
 }
 
 .container {margin:0 auto;}
@@ -149,6 +143,9 @@ background-color:@blue;
   p { margin:0; }
   }
 }
+
+
+/*Why use WP*/
 
 
 /*============ Animations ========*/
@@ -455,4 +452,31 @@ h2 { font-size:21px; }
 @media screen and (max-width: 420px) {
   
 .slide-image { max-width:100%; }
+}
+
+
+
+/*Swiper slider arrows*/
+
+.swiper-page-prev{
+    .encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z' fill='#007aff'/></svg>");
+    left: 50%; bottom:auto;
+    top: 110px;  transform: rotate(90deg);
+    
+}
+.swiper-page-next {
+    .encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z' fill='#007aff'/></svg>");
+    left: 50%; top:auto;
+    bottom : 30px;  transform: rotate(90deg);
+}
+
+.swiper-child-next {
+ right: 10px; top:50%;
+    left: auto; 
+}
+
+.swiper-child-prev {
+.encoded-svg-background("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z' fill='#007aff'/></svg>");
+  left: 10px; top:50%;
+  right: auto;
 }
