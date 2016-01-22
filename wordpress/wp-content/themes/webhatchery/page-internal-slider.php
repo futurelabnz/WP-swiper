@@ -41,5 +41,3 @@ $gallery = get_field('gallery', $page->ID);
     </div>
   </div>
 </div>
-
-</div>

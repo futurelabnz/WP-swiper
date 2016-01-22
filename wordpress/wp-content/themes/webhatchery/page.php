@@ -73,10 +73,9 @@ get_header();
       </div>
 
     <?php endforeach; ?>
-    <div class="swiper-page-next swiper-button-next"></div>
-    <div class="swiper-page-prev swiper-button-next"></div>
   </div>
-
+  <div class="swiper-page-next swiper-button-next"></div>
+  <div class="swiper-page-prev swiper-button-next"></div>
 </div>
 
 
