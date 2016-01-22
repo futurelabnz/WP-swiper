@@ -50,7 +50,7 @@ get_header();
     <?php
     $pages = get_pages(array('sort_column' => 'menu_order', 'parent' => 0));
 
-    foreach ($pages as &$page):
+    foreach ($pages as $pkey => &$page):
       $post = get_post($page->ID);
       ?>
       <div class="swiper-slide">
@@ -58,20 +58,25 @@ get_header();
         <div class="swiper-container swiper-child">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <?php include(locate_template(get_page_template_slug($page->ID)));?>
+              <?php include(locate_template(get_page_template_slug($page->ID))); ?>
             </div>
-            <?php foreach ($children as $key=>&$child): ?>
+            <?php foreach ($children as $ckey => &$child): ?>
               <div class="swiper-slide">
-                <?php include(locate_template(get_page_template_slug($child->ID)));?>
+                <?php include(locate_template(get_page_template_slug($child->ID))); ?>
               </div>
             <?php endforeach; ?>
           </div>
+          <div class="swiper-child-next swiper-button-next"></div>
+          <div class="swiper-child-prev swiper-button-next"></div>
         </div>
 
       </div>
 
     <?php endforeach; ?>
+    <div class="swiper-page-next swiper-button-next"></div>
+    <div class="swiper-page-prev swiper-button-next"></div>
   </div>
+
 </div>
 
 
