@@ -79,11 +79,11 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-//define('WP_DEBUG', false);
-define('WP_DEBUG', true);
-ini_set('log_errors',TRUE);
-ini_set('error_reporting', E_ALL);
-ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
+define('WP_DEBUG', false);
+//define('WP_DEBUG', true);
+//ini_set('log_errors',TRUE);
+//ini_set('error_reporting', E_ALL);
+//ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
 
 
 /* That's all, stop editing! Happy blogging. */
