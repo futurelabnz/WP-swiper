@@ -8,13 +8,13 @@
 $gallery = get_field('gallery', $page->ID);
 ?>
 
-<div class="internal-slider" style="width: 200px; height: 200px;">
+<div class="internal-slider" style="width: 850px; height: 200px;">
   <h5 class="reason-title">
     <?php echo $child->post_title; ?>
   </h5>
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-12">
       <img class="" src="<?php echo $gallery[0]['url']; ?>">
     </div>
 
@@ -34,7 +34,7 @@ $gallery = get_field('gallery', $page->ID);
     <?php endif; ?>
 
 
-    <div class="col-md-6">
+    <div class="col-md-12">
       <p>
         <?php echo $child->post_content; ?>
       </p>
