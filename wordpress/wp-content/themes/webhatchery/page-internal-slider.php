@@ -8,15 +8,13 @@
 $gallery = get_field('gallery', $page->ID);
 ?>
 
-<div class="internal-slider" style="width: 200px; height: 200px;">
-  <h5 class="reason-title">
+<div class="internal-slider" style="width: 850px; height:auto;">
+  <h2 class="reason-title">
     <?php echo $child->post_title; ?>
-  </h5>
+  </h2>
 
-  <div class="row">
-    <div class="col-md-6">
-      <img class="" src="<?php echo $gallery[0]['url']; ?>">
-    </div>
+
+
 
     <?php $subchildren = get_pages(array('parent' => $child->ID, 'sort_column' => 'post_date')); ?>
     <?php if (!empty($subchildren)): ?>
@@ -34,10 +32,11 @@ $gallery = get_field('gallery', $page->ID);
     <?php endif; ?>
 
 
-    <div class="col-md-6">
+    <div class="col-md-12">
       <p>
         <?php echo $child->post_content; ?>
       </p>
     </div>
-  </div>
 </div>
+
+
