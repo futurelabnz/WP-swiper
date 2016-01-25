@@ -574,9 +574,8 @@ html {
   }
 }
 .demo-page {
- 
-
 }
+
 .demo { width:100%; max-width:400px; }
 h2 { margin-top:10px; }
 .slide1 {.slide-image {max-width:45%; margin:0 auto;} }
@@ -584,7 +583,7 @@ h2 { margin-top:10px; }
 .logo {width:170px;}
 .text-box  {padding:20px 10px;
 
-  }
+}
  .swipe {position:absolute; right:50px;}                           
 }
 
@@ -597,14 +596,12 @@ h2 { font-size:21px; }
 .demo-page {
 .arrow { margin-top:-50px; width:30px; height:auto; }
 .demo { margin-bottom:0; margin-top:20px;}
-.demo-title {margin-bottom:5px; font-size:25px; }                                                                                                                                                                                         
+.demo-title {margin-bottom:5px; font-size:25px; }                                                                                                                                                                                    
 }
 .slide2 {
   .background { bottom:0; left:0; right:0; }
 }
-
 .slide1, .slide2 { margin-top:50px; }
-
 
 @-webkit-keyframes cursor-a {
   0%   {left:50px; top:-50px;}
@@ -623,10 +620,12 @@ h2 { font-size:21px; }
 }
 
 @media screen and (max-width: 420px) {
+.swiper-slide .text-box {padding:15px 10px;}
 .swiper-page-next , .swiper-page-prev { display:none !important; } 
-.slide1 .slide-image { max-width:40%; padding: 5px;}
+.slide1 .slide-image { max-width:35%; padding: 0px; padding-bottom:5px;}
+.slide2 {padding:10px;}
 header { top:0; }
-h2 { font-size:21px; }
+h2 { font-size:20px; }
 h3 { font-size:18px;}
 p { font-size:13px; }
 .btn { margin-top: 15px; }
@@ -647,7 +646,6 @@ p { margin-bottom:0; }
 .swiper-button-prev, .swiper-button-next {display:none !important;}
 .swiper-slide-active .internal-slider .icons { width:90px; }
 .swiper-slide {
-
   .swipe { width:65px; }
   }
   .text-box { padding:10px 0px; }
