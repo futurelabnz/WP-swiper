@@ -328,7 +328,7 @@ hatch
 }
 
 .swiper-slide .swiper-slide-active .text-box, 
- .swiper-container > .swiper-wrapper > .swiper-slide.swiper-slide-active .swiper-wrapper > .swiper-slide-active .swiper-subchild > .swiper-wrapper > .swiper-slide-active  {
+.swiper-slide-active .swiper-wrapper > .swiper-slide-active .swiper-subchild > .swiper-wrapper > .swiper-slide-active, .swiper-slide-active  .swiper-wrapper > .swiper-slide-active .wpcf7   {
  animation-name: pullDown;
   -webkit-animation-name: pullDown; 
   animation-duration: 1.4s; 
@@ -338,6 +338,9 @@ hatch
   transform-origin: 50% 0%;
   -ms-transform-origin: 50% 0%;
   -webkit-transform-origin: 50% 0%;   
+}
+
+ .swiper-slide-active  .swiper-wrapper > .swiper-slide-active .wpcf7  {  
 }
 
 @keyframes pullDown {
@@ -436,7 +439,8 @@ hatch
 */ 
 /*======== Images ========*/
 
-.swiper-slide .swiper-slide-active .slide-image, .swiper-slide .swiper-slide-active .one, .swiper-slide .swiper-slide-active .two, .swiper-slide .swiper-slide-active .three, .swiper-slide .swiper-slide-active .four{
+.swiper-slide .swiper-slide-active .slide-image, .swiper-slide .swiper-slide-active .one, .swiper-slide .swiper-slide-active .two
+{
   -webkit-animation-name: fadeInImage;
   animation-name: fadeInImage;
     animation-duration: 1.3s; 
@@ -447,6 +451,12 @@ hatch
     animation-fill-mode: forwards;
   opacity:0;
 }
+
+ .swiper-slide-active  .swiper-wrapper > .swiper-slide-active .wordpress-icon {
+  -webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+    animation-delay: 0.5s;
+
+ }
 
 .swiper-slide .swiper-slide-active .one {
   -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
@@ -467,7 +477,6 @@ hatch
     animation-delay: 2s;
 }
 
-
 @-webkit-keyframes fadeInImage {
   from {
     opacity: 0;
@@ -485,6 +494,48 @@ hatch
     opacity: 1;
   }
 }
+
+
+
+.swiper-slide-active[data-swiper-slide-index="1"] .swiper-slide-active, .swiper-slide-active[data-swiper-slide-index="2"] .swiper-slide-active, .swiper-slide-active[data-swiper-slide-index="3"] .swiper-slide-active{
+ -webkit-animation-name: fadeIncontent;
+  animation-name: fadeIncontent;
+   animation-duration: 2.2s; 
+  -webkit-animation-duration: 2.2s;
+  animation-timing-function: ease-out;  
+  -webkit-animation-timing-function: ease-out;  
+    -webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+    animation-fill-mode: forwards;
+  opacity:0;
+}
+@-webkit-keyframes fadeIncontent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIncontent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+.swiper-container-vertical .swiper-slide-active .swiper-slide-active h2 {
+  -webkit-animation-name: fadeInDown2;
+  animation-name: fadeInDown2;
+} 
+
 
 .mobile_only {display:block;}
 .desktop_only {display:none;}
