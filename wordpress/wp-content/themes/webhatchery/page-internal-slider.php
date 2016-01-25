@@ -8,7 +8,7 @@
 $gallery = get_field('gallery', $page->ID);
 ?>
 
-<div class="internal-slider" style="width: 850px; height:auto;">
+<div class="internal-slider" style="width:100%; max-width: 750px; height:auto;">
   <h2 class="reason-title">
     <?php echo $child->post_title; ?>
   </h2>
