@@ -48,7 +48,7 @@ get_header();
   <div class="swiper-wrapper">
 
     <?php
-    $pages = get_pages(array('sort_column' => 'menu_order', 'parent' => 0));
+    $pages = get_pages(array('sort_column' => 'menu_order', 'parent' => 0, 'exclude' => 40));
 
     foreach ($pages as $pkey => &$page):
       $post = get_post($page->ID);
