@@ -30,9 +30,9 @@ $gallery = get_field('gallery', $page->ID);
 
 
     <div class="col-md-12">
-      <p>
-        <?php echo $child->post_content; ?>
-      </p>
+     
+      <p>See for yourself just how easy WordPress is to edit! </p>
+      <a href="#" class="yellow btn">Show Me</a>
     </div>
 </div>
 
