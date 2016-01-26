@@ -610,15 +610,21 @@ h2 {font-size:34px;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-.swipe {display:none;}  
+@media screen and (min-width: 1200px) {
+
  }
+
+@media screen and (min-width: 1025px) {
+.swipe {display:none;}  
+ } 
 
 .swiper-container-v {
   background: #eee;
 }
 
 @media screen and (max-width:1024px){
+  .pos-swipe {position:static;}
+  .pos-swipe .swipe {top:-100px;}
   
   header { top:0px; }
 
