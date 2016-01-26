@@ -89,7 +89,7 @@ header {background:#000000; position: fixed; top: 40px; left: 0; right: 0; z-ind
   & { background:rgba(255,255,255,0.2); padding:15px 15px; max-width:950px; margin:0 auto; border-radius:5px; margin:25px auto;}
   } 
   .columns {padding:0 30px; }
-  .slide1, .slide2 { max-width:1170px; width:100%;
+  .slide1, .slide2 { max-width:1170px; width:100%; padding:15px;
     .background { position:absolute; z-index:-1;}
    }
   .slide2 { 
@@ -562,13 +562,31 @@ h2 {font-size:34px;}
     top: -120px;
     right: -50px;
   }
+  .swiper-slide .row { display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center; 
+  align-items: center; }
   }
+
 }
 
 
+@media (min-width:1000px){
+  
+  .header { top:50px; }
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-.header { top:50px; }
+
 
 .swiper-slide {
   .slide2  { 
