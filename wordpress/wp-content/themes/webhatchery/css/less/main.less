@@ -605,13 +605,14 @@ h2 {font-size:34px;}
   -ms-flex-align: center;
   -webkit-align-items: center; 
   align-items: center; }
-   .swipe {display:none;}  
   .slide-image {margin-bottom:15px;}
   }
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+.swipe {display:none;}  
+ }
 
 .swiper-container-v {
   background: #eee;
@@ -620,6 +621,7 @@ h2 {font-size:34px;}
 @media screen and (max-width:1024px){
   
   header { top:0px; }
+
 }
 
 @media screen and (max-width:991px) {

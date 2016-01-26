@@ -18,7 +18,7 @@ $gallery = get_field('gallery',$page->ID);
 
   <div class="row">
   	   <div class="col-md-8">
-		  <img class="" src="<?php echo $gallery[0]['url'];?>">
+		  <img class="swipe" src="<?php echo $gallery[0]['url'];?>">
 
 		  <p >
 		    <?php echo $page->post_content; ?>
