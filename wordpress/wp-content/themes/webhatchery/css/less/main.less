@@ -76,7 +76,7 @@ p {color:#000000; font-family: 'Varela Round', sans-serif;}
   li.active {
    a { color:@yellow; }  }
 }
-header {background:#000000; position: fixed; top: 40px; left: 0; right: 0; z-index: 100;}
+header {background:#000000; position: fixed; top: 50px; left: 0; right: 0; z-index: 100;}
 
 .site-branding { padding: 5px 0; }
 
@@ -579,10 +579,7 @@ h2 {font-size:34px;}
 }
 
 
-@media (min-width:1024px){
-  
-  .header { top:50px; }
-}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -620,6 +617,11 @@ h2 {font-size:34px;}
   background: #eee;
 }
 
+@media screen and (max-width:1024px){
+  
+  header { top:0px; }
+}
+
 @media screen and (max-width:991px) {
   header {top:0;}
   .slide1, .slide2, .internal-slider  { margin-top:50px; }
@@ -629,7 +631,7 @@ h2 {font-size:34px;}
 .slide1 .slide-image {padding-bottom:15px;}
 
 .swiper-slide {
-header { top:0; } 
+header { top:50px; } 
   .columns { padding:0 15px; }
 }
 .slide1 { padding:15px; .slide-image { max-width:200px; margin-bottom:10px; } }
