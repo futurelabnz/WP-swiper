@@ -13,9 +13,6 @@ $gallery = get_field('gallery', $page->ID);
     <?php echo $child->post_title; ?>
   </h2>
 
-
-
-
     <?php $subchildren = get_pages(array('parent' => $child->ID, 'sort_column' => 'post_date')); ?>
     <?php if (!empty($subchildren)): ?>
       <div class="swiper-container swiper-subchild">
