@@ -14,10 +14,10 @@
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) { ?>
 			<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'webhatchery' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
 		<?php } elseif ( is_search() ) { ?>
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'webhatchery' ); ?></p>
+			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'webhatchery' ); ?></p>
 			<?php echo webhatcheryFullPageSearchForm(); ?>
 		<?php } else { ?>
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'webhatchery' ); ?></p>
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'webhatchery' ); ?></p>
 			<?php echo webhatcheryFullPageSearchForm(); ?>
 		<?php } //endif; ?>
 	</div><!-- .page-content -->

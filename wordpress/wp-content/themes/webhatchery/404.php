@@ -4,11 +4,11 @@
 	<main id="main" class="site-main" role="main">
 		<section class="error-404 not-found">
 			<header class="page-header">
-				<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'webhatchery' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'webhatchery' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<div class="page-content">
-				<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'webhatchery' ); ?></p>
+				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'webhatchery' ); ?></p>
 
 				<!--search form-->
 				<form class="form-horizontal" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" role="form">
@@ -17,7 +17,7 @@
 							<input type="text" name="s" value="<?php echo esc_attr( get_search_query() ); ?>" placeholder="<?php echo esc_attr_x( 'Search &hellip;', 'placeholder', 'webhatchery' ); ?>" title="<?php echo esc_attr_x( 'Search &hellip;', 'label', 'webhatchery' ); ?>" class="form-control"/>
 						</div>
 						<div class="col-xs-2">
-							<button type="submit" class="btn btn-default"><?php _e( 'Search', 'webhatchery' ); ?></button>
+							<button type="submit" class="btn btn-default"><?php esc_html_e( 'Search', 'webhatchery' ); ?></button>
 						</div>
 					</div>
 				</form>
@@ -28,7 +28,7 @@
 					</div>
 					<div class=" col-sm-6 col-md-3">
 						<div class="widget widget_categories">
-							<h2 class="widgettitle"><?php _e( 'Most Used Categories', 'webhatchery' ); ?></h2>
+							<h2 class="widgettitle"><?php esc_html_e( 'Most Used Categories', 'webhatchery' ); ?></h2>
 							<ul>
 								<?php
 								wp_list_categories( array(

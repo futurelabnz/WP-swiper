@@ -13,14 +13,14 @@ $gallery = get_field( 'gallery', $child->ID );
 		<div class="col-md-12 columns">
 			<div class="text-box">
 				<h2>
-					<?php echo $child->post_title; ?>
+					<?php echo esc_html( $child->post_title ); ?>
 				</h2>
 				<p class="home-content-text">
-					<?php echo $child->post_content; ?>
+					<?php echo wp_kses_post( $child->post_content ); ?>
 				</p>
 			</div>
-			<img class="slide-image one" src="<?php echo $gallery[0]['url']; ?>">
-			<img class="slide-image two background" src="<?php echo $gallery[1]['url']; ?>">
+			<img class="slide-image one" src="<?php echo esc_url( $gallery[0]['url'] ); ?>">
+			<img class="slide-image two background" src="<?php echo esc_url( $gallery[1]['url'] ); ?>">
 
 		</div>
 	</div>

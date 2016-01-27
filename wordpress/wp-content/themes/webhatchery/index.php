@@ -13,7 +13,7 @@ get_header();
 $main_column_size = webhatcheryGetMainColumnSize();
 ?>
 <?php get_sidebar( 'left' ); ?>
-<div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
+<div class="col-md-<?php echo sanitize_html_class( $main_column_size ); ?> content-area" id="main-column">
 	<main id="main" class="site-main" role="main">
 		<?php if ( have_posts() ) { ?>
 			<?php

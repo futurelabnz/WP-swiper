@@ -12,15 +12,15 @@ $gallery = get_field( 'gallery', $page->ID );
 
 <div class="slide1">
 	<h2 class="title">
-		<?php echo $page->post_title; ?>
+		<?php echo esc_html( $page->post_title ); ?>
 	</h2>
 
 	<div class="row">
 		<div class="col-md-8 pos-swipe">
-			<img class="swipe" src="<?php echo $gallery[0]['url']; ?>">
+			<img class="swipe" src="<?php echo esc_url( $gallery[0]['url'] ); ?>">
 
 			<p>
-				<?php echo $page->post_content; ?>
+				<?php echo wp_kses_post( $page->post_content ); ?>
 			</p>
 
 			<div></div>

@@ -10,7 +10,7 @@ $gallery = get_field( 'gallery', $page->ID );
 
 <div class="internal-slider" style="width:100%; max-width: 750px; height:auto;">
 	<h2 class="reason-title">
-		<?php echo $child->post_title; ?>
+		<?php echo esc_html( $child->post_title ); ?>
 	</h2>
 
 	<?php $subchildren = get_pages( array( 'parent' => $child->ID, 'sort_column' => 'post_date' ) ); ?>
