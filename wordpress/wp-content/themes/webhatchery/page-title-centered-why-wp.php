@@ -27,7 +27,7 @@ $gallery = get_field('gallery',$page->ID);
       <div></div>
 
       <p>See for yourself just how easy WordPress is to edit! </p>
-      <a href="#" class="yellow btn">Show Me</a>
+      <a href="http://demo.webhatchery.co.nz/wp-login.php" class="yellow btn" target="_blank">Show Me</a>
       
 	  </div>
   </div>
