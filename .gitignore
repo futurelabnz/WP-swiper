@@ -1,4 +1,5 @@
-/nbproject/private/
+/nbproject
+/.idea
 /node_modules/
 /wordpress/xmlrpc.php
 /wordpress/readme.html
