@@ -1,6 +1,8 @@
 # WP Swiper
 
-WP Swiper is a basic WordPress template bases on Angular.js. The aim at this stage is to make a template that you can navigate without or with very little clicks. The template should be very quick no matter how many pages there is in navigation menu and should use WordPress API to get data.
+WP Swiper is a basic WordPress template based on Swiper JS. It generates automatically vertical slides as pages (based on menu assignment) and horizontal slides based on subpages (children of menu pages).
+
+To see example view www.webhatchery.co.nz
 
 More to follow
 
