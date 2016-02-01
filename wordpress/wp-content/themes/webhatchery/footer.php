@@ -1,15 +1,13 @@
 <?php
 /**
  * The theme footer
- * 
+ *
  * @package webhatchery
  */
 ?>
 
 
-		
-
-		<!--wordpress footer-->
-		<?php wp_footer(); ?> 
-	</body>
+<!--wordpress footer-->
+<?php wp_footer(); ?>
+</body>
 </html>
